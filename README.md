@@ -1,3 +1,7 @@
+Sure! Here's the updated README with the architecture compatibility section added:
+
+---
+
 # Character Device Driver README
 
 ## Overview
@@ -10,6 +14,14 @@ This project implements a simple Linux character device driver that creates a `/
 ## Prerequisites
 - A Linux environment with kernel development headers installed.
 - The necessary permissions to load kernel modules.
+
+## Architecture Compatibility
+The provided character device driver code is primarily designed for the **x86** architecture but can be adapted to work on other architectures supported by the Linux kernel, such as:
+- **x86_64**
+- **ARM**
+- **MIPS**
+  
+While the code is generally compatible, minor modifications may be necessary depending on the specific environment. Always ensure you have the appropriate kernel headers and test the driver on the intended architecture.
 
 ## Files
 - `ldd.c`: The source code for the character device driver.
