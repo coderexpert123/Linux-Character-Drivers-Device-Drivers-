@@ -1,7 +1,3 @@
-Sure! Here's the updated README with the architecture compatibility section added:
-
----
-
 # Character Device Driver README
 
 ## Overview
